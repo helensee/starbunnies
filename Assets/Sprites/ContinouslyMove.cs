@@ -70,4 +70,10 @@ public class ContinouslyMove : MonoBehaviour {
     {
         isGrounded = Physics2D.Raycast(transform.position, -Vector2.up, 0.5f);
     }
+
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.CompareTag ("Star")) {
+			other.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+		}
+	}
 }
