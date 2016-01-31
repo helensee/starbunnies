@@ -13,13 +13,11 @@ public class ContinouslyMove : MonoBehaviour {
     public CharacterController controller;
     public float offSetx;
     public float offSety;
-    private float lockPos;
 
     public bool isGrounded = false;
     private int jumpHeight = 400;
 
     private Rigidbody2D rb;
-    private float m_JumpForce = 400f;
 
     // Use this for initialization
     void Start () {
@@ -35,7 +33,7 @@ public class ContinouslyMove : MonoBehaviour {
         }
         else
         {
-            Vector2 movement = new Vector2(1, -speed);
+            Vector2 movement = new Vector2(2, -speed);
             transform.Translate(movement * Time.deltaTime);
 
         }
@@ -51,19 +49,6 @@ public class ContinouslyMove : MonoBehaviour {
         
         isGrounded = false;
         rb.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Force);
-
-        //rb.AddForce(new Vector2(0, 200), ForceMode2D.Force);
-
-        //transform.position = new Vector2(target.transform.position.x + offSetx, lockPos + offSety);
-        //rb.AddForce(transform.forward * jumpForce);
-
-        /*
-        Vector3 up = transform.TransformDirection(Vector3.up);
-        Rigidbody test = new Rigidbody();
-        test.AddForce(up * jumpForce, ForceMode.Impulse);
-        test.velocity += up * jumpSpeed;
-        */
-        
     }
 
     void FixedUpdate()
