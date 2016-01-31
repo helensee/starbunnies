@@ -45,11 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scroll.cs" />
-     <Compile Include="Assets\Sprites\ContinouslyMove.cs" />
-     <Compile Include="Assets\Sprites\Follow.cs" />
-     <Compile Include="Assets\Sprites\KeyMove.cs" />
-     <Compile Include="Assets\Sprites\Stars.cs" />
+     <Compile Include="Assets\Scripts\Camera.cs" />
+     <Compile Include="Assets\Scripts\ContinouslyMove.cs" />
+     <Compile Include="Assets\Scripts\Follow.cs" />
+     <Compile Include="Assets\Scripts\Ground.cs" />
+     <Compile Include="Assets\Scripts\KeyMove.cs" />
+     <Compile Include="Assets\Scripts\PlayerControls.cs" />
+     <Compile Include="Assets\Scripts\Scroll.cs" />
+     <Compile Include="Assets\Scripts\ScrollTest.cs" />
+     <Compile Include="Assets\Scripts\Stars.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
