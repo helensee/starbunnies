@@ -1,0 +1,13 @@
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_obj\Debug\StarBunnies.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\kuroiblood\Documents\Games\StarBunnies\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb

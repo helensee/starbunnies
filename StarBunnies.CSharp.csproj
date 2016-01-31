@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scroll.cs" />
     <Compile Include="Assets\Sprites\ContinouslyMove.cs" />
+    <Compile Include="Assets\Sprites\Follow.cs" />
     <Compile Include="Assets\Sprites\KeyMove.cs" />
     <Compile Include="Assets\Sprites\Stars.cs" />
   </ItemGroup>
