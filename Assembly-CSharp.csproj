@@ -51,9 +51,19 @@
      <Compile Include="Assets\Scripts\Ground.cs" />
      <Compile Include="Assets\Scripts\KeyMove.cs" />
      <Compile Include="Assets\Scripts\PlayerControls.cs" />
+     <Compile Include="Assets\Scripts\Scores.cs" />
      <Compile Include="Assets\Scripts\Scroll.cs" />
      <Compile Include="Assets\Scripts\ScrollTest.cs" />
      <Compile Include="Assets\Scripts\Stars.cs" />
+     <Compile Include="Assets\Scroll.cs" />
+     <Compile Include="Assets\Sprites\Camera.cs" />
+     <Compile Include="Assets\Sprites\ContinouslyMove.cs" />
+     <Compile Include="Assets\Sprites\Follow.cs" />
+     <Compile Include="Assets\Sprites\Ground.cs" />
+     <Compile Include="Assets\Sprites\KeyMove.cs" />
+     <Compile Include="Assets\Sprites\PlayerControls.cs" />
+     <Compile Include="Assets\Sprites\ScrollTest.cs" />
+     <Compile Include="Assets\Sprites\Stars.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
