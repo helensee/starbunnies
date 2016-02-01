@@ -6,7 +6,7 @@ public class PlayerControls : MonoBehaviour {
     public float speed;
     public float jumpSpeed;
     public float jumpForce;
-
+    public int score;
     public Transform target;
     public CharacterController controller;
 
@@ -62,19 +62,20 @@ public class PlayerControls : MonoBehaviour {
         isGrounded = Physics2D.Raycast(transform.position, -Vector2.up, 0.5f);
     }
 
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.gameObject.CompareTag("Star"))
-		{
-			if (other.offset == new Vector2(0,0))
-			{
-				Destroy (other.gameObject);
-			}
-			else
-			{
-				other.gameObject.GetComponent<Rigidbody2D> ().isKinematic = false;
-			}
-		}
-	}
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Star"))
+        {
+            if (other.offset == new Vector2(0, 0))
+            {
+                Destroy(other.gameObject);
+                score++;
+            }
+            else
+            {
+                other.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+            }
+        }
+    }
 
 }
